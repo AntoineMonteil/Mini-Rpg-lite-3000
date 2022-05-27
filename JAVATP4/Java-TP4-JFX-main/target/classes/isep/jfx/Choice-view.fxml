@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="isep.jfx.ChoiceController">
+    <padding>
+        <Insets bottom="100.0" left="100.0" right="100.0" top="100.0"/>
+    </padding>
+
+    <Label text="Choisissez votre classe!"/>
+    <Button fx:id="Warrior" text="Warrior" onAction="#onStartWarriorButtonClick"/>
+    <Button fx:id="Healer" text="Healer" onAction="#onStartHealerButtonClick"/>
+    <Button fx:id="Hunter" text="Hunter" onAction="#onStartHunterButtonClick"/>
+    <Button fx:id="Mage" text="Mage" onAction="#onStartMageButtonClick"/>
+</VBox>
